@@ -1,2 +1,4 @@
 # Arch-Gnome-Customization
 Modify your arch-linux Gnome desktop with beautiful things
+
+    sudo pacman -S --needed base-devel git
