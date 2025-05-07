@@ -11,6 +11,16 @@ paste the following commands into the terminal :
 
     sudo pacman -S wget curl git neofetch fastfetch 
 
+# Install Extensions and Flatpak
+paste the following commands into the terminal :
+
+     sudo pacman -S flatpak
+
+for Extension-Manager :
+
+      flatpak install flathub com.mattjakeman.ExtensionManager
+      flatpak run com.mattjakeman.ExtensionManager
+
  # Install yay 
 paste the following commands into the terminal:
 
@@ -75,6 +85,11 @@ paste the following commands into the terminal :
 Choose your favourite grub theme,
 Choose the icon colors that you want and
 Choose your display resolution
+
+# Update Grub
+paste the following commands into the terminal :
+
+      sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 # Enjoy !
 Enjoy your Gnome desktop !
