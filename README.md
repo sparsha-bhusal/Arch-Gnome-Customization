@@ -86,11 +86,6 @@ Choose your favourite grub theme,
 Choose the icon colors that you want and
 Choose your display resolution
 
-# Update Grub (optional since the script earlier , already did it)
-paste the following commands into the terminal :
-
-      sudo grub-mkconfig -o /boot/grub/grub.cfg
-
 # Enjoy !
 Enjoy your Gnome desktop !
 
