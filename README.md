@@ -14,10 +14,10 @@ Now , you can run the install.sh
 # 1. Automatic -
    type the following in the terminal :
 
-   cd Downloads
-   git clone https://github.com/sparshabhusal/Arch-Gnome-Customization.git
-   cd Arch-Gnome-Customization
-   sudo ./install.sh
+     cd Downloads
+     git clone https://github.com/sparshabhusal/Arch-Gnome-Customization.git
+     cd Arch-Gnome-Customization
+     sudo ./install.sh
 
 And Boom ! done , but you have to open the gnome-tweaks and manually select the themes,icons etc.
 And you have to also choose which grub bootloader theme you want in the last step
