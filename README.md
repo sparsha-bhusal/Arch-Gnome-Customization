@@ -86,16 +86,12 @@ Choose your favourite grub theme,
 Choose the icon colors that you want and
 Choose your display resolution
 
-# Update Grub
+# Update Grub (optional since the script earlier , already did it)
 paste the following commands into the terminal :
 
       sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 # Enjoy !
 Enjoy your Gnome desktop !
-
-# Spoiler
-I will be adding the zsh and powerlevel10k repos and others shortly after !
-stay tuned !
 
       
