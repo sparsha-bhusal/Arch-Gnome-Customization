@@ -17,6 +17,8 @@ Now , you can run the install.sh
      cd Downloads
      git clone https://github.com/sparshabhusal/Arch-Gnome-Customization.git
      cd Arch-Gnome-Customization
+     sudo chmod +x install.sh
+     sudo chmod +x wallpapers.sh
      sudo ./install.sh
 
 And Boom ! done , but you have to open the gnome-tweaks and manually select the themes,icons etc.
