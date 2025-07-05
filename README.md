@@ -29,7 +29,7 @@ And you have to also choose which grub bootloader theme you want in the last ste
  Install necessary dependencies
 paste the following commands into the terminal :
 
-    sudo pacman -S wget curl git neofetch fastfetch 
+    sudo pacman -S wget curl git fastfetch 
 
  Install Extensions and Flatpak
 paste the following commands into the terminal :
