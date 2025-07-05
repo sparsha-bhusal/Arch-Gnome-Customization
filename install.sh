@@ -1,4 +1,4 @@
-sudo pacman -S wget curl git neofetch fastfetch 
+sudo pacman -S wget curl git fastfetch figlet
  sudo pacman -S flatpak
   flatpak install flathub com.mattjakeman.ExtensionManager
 sudo pacman -S --needed base-devel git
@@ -30,3 +30,12 @@ cd ~
  cd grub2-themes
  sudo ./install.sh
  cd ~
+figlet "Install Complete !"
+echo "
+
+● ● ● ● ● ● ● ●
+
+Install Complete !
+You may reboot your computer now !
+
+"
