@@ -64,11 +64,7 @@ paste the following commands into the terminal :
     git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git --depth=1
     cd WhiteSur-gtk-theme
     sudo ./install.sh
-
-You can also use these commands
-
-    ./install.sh -t all  # to install all themes
-    ./install.sh -t red  # to install red theme accent only
+    gsettings set org.gnome.desktop.interface gtk-theme "WhiteSur-gtk-theme"
 
  Install Icon Theme
 paste the following commands into the terminal :
@@ -77,6 +73,7 @@ paste the following commands into the terminal :
      git clone https://github.com/vinceliuice/WhiteSur-icon-theme.git
      cd WhiteSur-icon-theme
      sudo ./install.sh
+     gsettings set org.gnome.desktop.interface icon-theme "WhiteSur-icon-theme"
 
  Install Cursor Theme
 paste the following commands into the terminal :
@@ -85,10 +82,7 @@ paste the following commands into the terminal :
      git clone https://github.com/vinceliuice/WhiteSur-cursors.git
      cd WhiteSur-cursors
      sudo ./install.sh
-
- Applying Themes
-
- Open Gnome Tweaks, click on appearence , select your themes and icons etc.
+     gsettings set org.gnome.desktop.interface cursor-theme "WhiteSur-cursors"
 
  Installing Grub
 paste the following commands into the terminal :
