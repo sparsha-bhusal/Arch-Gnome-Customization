@@ -4,6 +4,7 @@ sudo pacman -S wget curl git fastfetch figlet
 sudo pacman -S --needed base-devel git
 sudo git clone https://aur.archlinux.org/yay.git
 cd yay
+sudo chown -R "$USER" "$HOME/yay"
 makepkg -si
 cd ~
 yay -S google-chrome
