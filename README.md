@@ -1,11 +1,6 @@
 # Arch-Gnome-Customization
 Modify your arch-linux Gnome desktop with beautiful things
 
-Please Dont Copy my repo and paste the exact things into a another repo and call yourselves the owner , I am just new to linux !
-
-The owners of the directories , I have just combined your repositories
-and I haven't stole them , Pls dont Sue me !
-
 # Installation
 
 Since the recent update , theres a install.sh !
@@ -44,9 +39,13 @@ for Extension-Manager :
  Install yay 
 paste the following commands into the terminal:
 
+Note : Replace the "me" in the fourth line !
+It is also to allow permissions for writing files in the yay directory !
+
     sudo pacman -S --needed base-devel git
     sudo git clone https://aur.archlinux.org/yay.git
     cd yay
+    sudo chown -R me /home/me/yay 
     makepkg -si
 
  Install google-chrome
