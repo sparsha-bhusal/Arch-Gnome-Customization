@@ -39,13 +39,10 @@ for Extension-Manager :
  Install yay 
 paste the following commands into the terminal:
 
-Note : Replace the "me" in the fourth line !
-It is also to allow permissions for writing files in the yay directory !
-
     sudo pacman -S --needed base-devel git
     sudo git clone https://aur.archlinux.org/yay.git
     cd yay
-    sudo chown -R me /home/me/yay 
+    sudo chown -R "$USER" "$HOME/yay"
     makepkg -si
 
  Install google-chrome
