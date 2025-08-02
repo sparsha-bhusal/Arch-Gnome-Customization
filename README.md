@@ -3,6 +3,10 @@ Modify your arch-linux Gnome desktop with beautiful things
 
 # Installation
 
+WARNING !
+IMPORTANT NOTICE : INSTALL TIMESHIFT BEFORE DOING ANY OF THE THINGS BELOW !!!!!!!
+
+
 Since the recent update , theres a install.sh !
 Now , you can run the install.sh 
 
