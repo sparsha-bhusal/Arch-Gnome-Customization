@@ -7,8 +7,6 @@ WARNING !
 IMPORTANT NOTICE : INSTALL TIMESHIFT BEFORE DOING ANY OF THE THINGS BELOW !!!!!!!
 
 
-Since the recent update , theres a install.sh !
-Now , you can run the install.sh 
 
 # 1. Automatic -
    type the following in the terminal :
