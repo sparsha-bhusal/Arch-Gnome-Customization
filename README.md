@@ -2,8 +2,7 @@
 Modify your arch-linux Gnome desktop with beautiful things
 
 # Installation
-
-IMPORTANT NOTICE : INSTALL TIMESHIFT BEFORE DOING ANY OF THE THINGS BELOW !!!!!!!
+!!!!!     ----   IMPORTANT NOTICE : INSTALL TIMESHIFT BEFORE DOING ANY OF THE THINGS BELOW   ------      !!!!!!!
 
 
 
