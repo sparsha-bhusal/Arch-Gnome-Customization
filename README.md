@@ -96,6 +96,25 @@ Choose your favourite grub theme,
 Choose the icon colors that you want and
 Choose your display resolution
 
+# 2. Scripts -
+Note : I have commented a line to set the "lakeside.png" as wallpaper. That is in the bottom of "GTK.sh"
+       Dont forget to paste the following lines in the terminal !
+
+      mv ~/Downloads/scripts ~
+      cd ~/scripts
+      sudo chmod +x yay.sh
+      sudo chmod +x GTK.sh
+
+Also , you need to put the "scripts" folder, the folder with the "lakeside.png" wallpaper, into ~ or the home directory
+Then, paste this !
+
+      cd ~/scripts/
+      ./yay.sh
+      ./GTK.sh
+
+
+Note : The best method is " 2. Manual Installation "
+
 # Enjoy !
 Enjoy your Gnome desktop !
 
